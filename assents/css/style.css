@@ -20,7 +20,7 @@ section .row {
   white-space: nowrap;
   font-size: 64px;
   transform: rotate(-30deg);
-  top: -350px
+  top: -650px
 }
 i {
   color:rgba(0, 0, 0, .5);
@@ -96,3 +96,30 @@ section .row:nth-child(even) div:nth-child(2) {
     transform: translateX(-0%)
   }
 }
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #faf6f6;
+  text-align: center;
+  transform: translate(-50%, -50%); 
+}
+
+h1 {
+  font-size: 3rem;
+  color:#061ea7
+}
+p {
+  font-size: 1.2rem;
+}
+
+@media(min-width: 768px) {
+  h1 {
+  font-size: 5rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
